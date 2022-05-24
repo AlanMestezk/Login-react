@@ -1,0 +1,24 @@
+
+html{
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*::after{
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: 'Copperplate Gothic';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(97, 154, 192);
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
